@@ -13,7 +13,7 @@ namespace xloil
   template<>
   struct CacheUniquifier<py::object>
   {
-    static constexpr wchar_t value = L'\x6B23';
+    static constexpr wchar_t value = L'\x26A1';
   };
   using pyCacheUnquifier = CacheUniquifier<py::object>;
 
