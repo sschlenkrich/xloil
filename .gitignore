@@ -42,6 +42,9 @@ __pycache__
 
 # External libraries
 /external/python/
+/external/sqlite/
+/external/sqlite.zip
+
 /docs/source/_build
 
 ~$*
