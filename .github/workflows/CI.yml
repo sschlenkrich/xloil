@@ -59,3 +59,7 @@ jobs:
       - name: List build directory contents to allow inspection of build artifacts
         shell: pwsh
         run: Get-ChildItem build -Recurse | Where-Object { $_.FullName -notlike "*\build\obj\*" } | Select-Object FullName, Length, LastWriteTime
+
+      - name: Run C++ unit tests
+        shell: pwsh
+        run: vstest.console.exe build\x64\Debug\UnitTests.dll
