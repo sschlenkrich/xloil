@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      - wip/add-submodules
+      - wip/update-github-actions
   pull_request:
     branches:
       - master
